@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget{
         ),
         body: Center(
           child: Text(
-                  "作为一名有理想有抱负的程序员,如何提升自己专业水平?来慕课网学前端框架知识!详解三大主流框架,助力你提升职场的竞争力,提高专业技能水平,升职加薪!",
+                  "我是masetr分支的数据",
             textAlign: TextAlign.left,
         /*    maxLines: 1,
             overflow: TextOverflow.ellipsis,*/
