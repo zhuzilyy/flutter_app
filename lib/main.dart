@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget{
         ),
         body: Center(
           child: Text(
-                  "我是dev薛金柱分支的数据",
+                  "我是tra分支上的数据",
             textAlign: TextAlign.left,
         /*    maxLines: 1,
             overflow: TextOverflow.ellipsis,*/
