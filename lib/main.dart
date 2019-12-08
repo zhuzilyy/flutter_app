@@ -14,17 +14,22 @@ class MyApp extends StatelessWidget{
           title: Text("Hello world")
         ),
         body: Center(
-          child: Text(
-                  "我是masetr分支的数据",
-            textAlign: TextAlign.left,
-        /*    maxLines: 1,
+          child:Column(
+            children: <Widget>[
+              Text(
+                "我是masetr分支的数据",
+                textAlign: TextAlign.left,
+                /*    maxLines: 1,
             overflow: TextOverflow.ellipsis,*/
-            style: TextStyle(
-              fontSize: 25.0,
-              color: Color.fromARGB(255, 255, 150, 150),
-              decoration: TextDecoration.underline,
-              decorationStyle: TextDecorationStyle.solid
-            ),
+                style: TextStyle(
+                    fontSize: 25.0,
+                    color: Color.fromARGB(255, 255, 150, 150),
+                    decoration: TextDecoration.underline,
+                    decorationStyle: TextDecorationStyle.solid
+                ),
+              ),
+              Text("我要切换分支了呀")
+            ],
           )
         ),
       )
