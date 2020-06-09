@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget{
       title: "welcome to flutter",
       home:Scaffold(
         appBar: AppBar(
-          title: Text("Hello world")
+          title: Text("Hello world2222")
         ),
         body: Center(
           child: Text(
-                  "我是masetr1分支的数据",
+                  "我是masetr2分支的数据",
             textAlign: TextAlign.left,
         /*    maxLines: 1,
             overflow: TextOverflow.ellipsis,*/
